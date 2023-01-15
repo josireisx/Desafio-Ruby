@@ -1,9 +1,12 @@
 # desafio ruby 
+   
     puts "Qual é o seu nome?"
     nome = gets.chomp
     puts puts "Informe um número para saber que você não é um robô"
     numero = gets.chomp.to_i
-
+    começo = 's'
+    while começo == "s"
+    
     
 # numero multiplo de 3
     if numero % 3 == 0
@@ -26,5 +29,10 @@
     puts "COPA DO MUNDO"
     else
     puts "hello #{nome}, você digitou um numero não multiplo de 5 e 3 o numero #{numero}, tente novamente!"
-    end
+   end
+    puts "Deseja começar novamente? (s/n)"
+    começo = gets.chomp
+   end
+   
+   puts "Obrigado pela tentativa!"
     
