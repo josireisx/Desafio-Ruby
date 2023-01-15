@@ -1,0 +1,30 @@
+# desafio ruby 
+    puts "Qual é o seu nome?"
+    nome = gets.chomp
+    puts puts "Informe um número para saber que você não é um robô"
+    numero = gets.chomp.to_i
+
+    
+# numero multiplo de 3
+    if numero % 3 == 0
+    puts "COPA"
+    else
+    puts "hello #{nome}, você digitou um numero não multiplo de 3 o numero #{numero} tente novamente!"
+    end
+
+# numero multiplo de 5
+    numero = gets.chomp.to_i
+    if numero % 5 == 0
+    puts "MUNDO"
+    else
+    puts "hello #{nome}, você digitou um numero não multiplo de 5 o numero #{numero} tente novamente!"
+    end
+    
+# numero multiplo de 3 e 5
+    numero = gets.chomp.to_i
+    if numero % 15 == 0
+    puts "COPA DO MUNDO"
+    else
+    puts "hello #{nome}, você digitou um numero não multiplo de 5 e 3 o numero #{numero}, tente novamente!"
+    end
+    
